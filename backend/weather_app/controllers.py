@@ -18,4 +18,4 @@ async def get_weather_handler(location_name: str) -> WeatherData:
             detail="Location not found"
         )
 
-    return weather_service.get_current_weather(location)
+    return await weather_service.get_current_weather(location)
