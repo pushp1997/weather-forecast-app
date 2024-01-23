@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.responses import PlainTextResponse
 
-from weather_app.controllers import router
+from backend.weather_app.controllers import router
 
 app = FastAPI()
 

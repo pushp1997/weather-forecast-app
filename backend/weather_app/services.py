@@ -1,7 +1,7 @@
 import httpx
 
-from weather_app.models import Location, WeatherData
-from weather_app.constants import (
+from backend.weather_app.models import Location, WeatherData
+from backend.weather_app.constants import (
     OPENWEATHER_API_KEY,
     OPENWEATHER_RESPONSE_LIMIT,
     OPENWEATHER_GEO_CODE_URL,
